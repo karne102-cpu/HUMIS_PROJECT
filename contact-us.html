@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HUMIS "inner" pages layout</title>
+    <link rel="stylesheet" href="stylesheets/inner_styles.css">
+
+
+    <style>
+        /* local styles*/
+        main {
+            nav.inner-nav {
+                display: flex;
+                gap: 10px;
+                font-size: 11px;
+                color: var(--burgundy);
+                border-bottom: 2px solid black;
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    color: var(--burgundy);
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            section.content {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                div {
+                    h6 {
+                        color: var(--dark);
+                        margin: 0;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<section class="container">
+
+    <header>
+        <a href="Index.html">
+            <img src="files/historyHeader.gif" alt="History homepage"/>
+        </a>
+
+        <img src="files/histBooks01.jpg" alt="History books">
+    </header>
+
+    <section class="middle">
+
+        <section class="left-side">
+            <nav>
+                <a href="about-us.html">About us</a>
+                <a href="faculty_&_staff.html">Faculty &amp; staff</a>
+                <a href="#">Undergraduate students</a>
+                <a href="#">Graduate students</a>
+                <a href="#">course &amp; announcements</a>
+                <a href="#">Friends &amp; alumni</a>
+                <a href="contact-us.html" class="active">Contact us</a>
+            </nav>
+
+            <div class="links">
+                <a href="#">
+                    <img src="files/login-humis.gif" alt=" Log into HUMIS"/>
+                </a>
+
+                <a href="#">
+                    <img src="files/login-cis.gif" alt="Log into CIS"/>
+                </a>
+            </div>
+        </section>
+
+
+        <section class="right-side">
+            <nav class="secondary top-nav">
+                <a href="#">Campus directory</a>
+                <a href="#">Department calendar</a>
+                <a href="#">Contact us</a>
+                <a href="#">
+                    <img src="files/u_small.gif" alt="U of U Logo"/>
+                </a>
+            </nav>
+
+            <main>
+                <nav class="inner-nav">
+                    <a href="#">Contact information</a>
+                    |
+                    <a href="#">Faculty directory</a>
+                    |
+                    <a href="#">Staff directory</a>
+                </nav>
+
+                <aside class="pull right">
+                    <img class="pull-right" src="files/students-graduating-squared-off.png" alt="students graduating"/>
+                    <h6> > watch video</h6>
+                </aside>
+
+                <section class="content">
+                    <h3> Contact us</h3>
+
+                    <div>
+                        <h6>U.S. MAIL </h6>
+                        <p>
+                            University of Utah <br/>
+                            Department of History<br/>
+                            380 S 1400 E RM 211 <br/>
+                            Salt Lake City, UT 84112-0311
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>CAMPUS MAIL </h6>
+                        <p>
+                            Department of History
+                            211 C HALL
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>PHONE</h6>
+                        <p>
+                            (801) 581-6121
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>FAX</h6>
+                        <p>
+                            (801) 585-0580
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>HOURS</h6>
+                        <p>
+                            Monday - Friday
+                            8:00 AM - 5:00 PM
+                        </p>
+                    </div>
+                </section>
+            </main>
+
+            <nav class="secondary bottom-nav">
+                <a href="#">Disclaimer</a>
+                <a href="#">Test only</a>
+                <a href="#">Webmaster</a>
+            </nav>
+        </section>
+    </section>
+
+    <footer>
+        380 SOUTH 1400 EAST | 211 C HALL | SALT LAKE CITY Y | UT | 84112 | PHONE 801.581.6121 | FAX
+        801.585.0580
+    </footer>
+</section>
+</body>
+
+</html>
